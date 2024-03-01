@@ -24,7 +24,8 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
  * @func: pointer to a function to call for each node
  * @level: the level of the tree to call func upon
  */
-void levelorder_helper(const binary_tree_t *tree, void (*func)(int), size_t level)
+void levelorder_helper(const binary_tree_t *tree,
+		void (*func)(int), size_t level)
 {
 	if (level == 1)
 		func(tree->n);

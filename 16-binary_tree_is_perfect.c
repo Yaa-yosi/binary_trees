@@ -22,11 +22,11 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 }
 
 /**
- * max_nodes - checks the max nodes of a tree
+ * _pow - checks the max nodes of a tree
  * @x: base
  * @y: exponent
- * Return: x**y or -1 
- * */
+ * Return: x**y or -1
+ **/
 
 int _pow(int x, int y)
 {
